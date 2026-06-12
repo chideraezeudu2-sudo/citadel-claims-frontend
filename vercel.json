@@ -1,10 +1,9 @@
 {
-  "name": "citadel-claims",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "vite",
-  "publicEnv": {
+  "env": {
     "VITE_API_URL": "https://citadel-claims-backend.onrender.com"
   }
 }
